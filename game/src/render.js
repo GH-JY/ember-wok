@@ -238,9 +238,9 @@ export function createRenderer(canvas) {
     const left = Math.max(0, SHIFT.seconds - state.time);
     const fraction = Math.max(0, Math.min(1, left / SHIFT.seconds));
     const ringColor = state.rush ? P.chili : P.amber;
-    ring(ctx, panel.x + 40, panel.y + 38, 27, 6.5, fraction, ringColor, 'rgba(255,255,255,0.09)');
-    label(clockText(left), panel.x + 40, panel.y + 38, { size: 11, weight: 700, color: P.cream, align: 'center', baseline: 'middle', family: FONT.mono });
-    label('SHIFT', panel.x + 40, panel.y + 74, { size: 7, weight: 700, color: P.muted, align: 'center' });
+    ring(ctx, panel.x + 42, panel.y + 34, 30, 6.5, fraction, ringColor, 'rgba(255,255,255,0.09)');
+    label(clockText(left), panel.x + 42, panel.y + 34, { size: 16, weight: 700, color: P.cream, align: 'center', baseline: 'middle', family: FONT.mono });
+    label('SHIFT CLOCK', panel.x + 42, panel.y + 75, { size: 7, weight: 700, color: P.muted, align: 'center' });
 
     const x = panel.x + 78;
     label('EARNINGS', x, panel.y + 15, { size: 8, weight: 700, color: P.muted });
