@@ -1,0 +1,9 @@
+out/
+out2/
+.shot-test/
+.chrome-test/
+.chrome-test2/
+.qa/
+.syntax/
+node_modules/
+.makefun/owner.json
