@@ -1,6 +1,6 @@
 [
   { "name": "1-cover.jpg", "query": "?shot=cover&seed=7" },
-  { "name": "2-chop.jpg", "query": "?shot=chop&seed=7" },
-  { "name": "3-plating.jpg", "query": "?shot=plating&seed=7" },
+  { "name": "2-wok.jpg", "query": "?shot=plating&seed=7", "clip": [200, 220, 640, 240] },
+  { "name": "3-serve.jpg", "query": "?shot=cover&seed=7", "clip": [680, 195, 600, 225] },
   { "name": "4-rush.jpg", "query": "?shot=rush&seed=7" }
 ]
